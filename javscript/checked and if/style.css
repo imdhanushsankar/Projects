@@ -1,0 +1,37 @@
+.form{
+    font-size: 1.5em;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    align-content: space-between
+    ;
+    
+}
+
+#submitbtn{
+    padding: 20px 30px;
+    border: 1.5rem;
+    border-radius: 20px;
+    color: rgb(14, 11, 11);
+    background-color: chartreuse;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 1.5rem;
+}
+
+#submitbtn:hover{
+    background-color: rgb(49, 154, 246);
+    color: rgb(20, 19, 17);
+    transition: 0.5s;
+}
+
+#output{
+    position: absolute;
+    margin-top: 100px;
+}
+#outputcard{
+    position: absolute;
+    margin-top: 200px;
+}
