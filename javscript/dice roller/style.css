@@ -1,0 +1,43 @@
+#container{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+
+
+}
+
+button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #0c0e0d; /* Darker green on hover */
+}
+ 
+button:active {
+    background-color: #0c0e0d; /* Darker green on click */
+    box-shadow: 0 5px #beb8b8;
+    transform: translateY(4px);
+}
+
+input{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid #4CAF50; /* Green border */
+}
+
